@@ -14,7 +14,6 @@ public class Driver{
     
     public Driver(){
         int [] testArr = new int[] {1,5,6,9,5,1,1,5,84,6,1,5,8,2,6,1,7,9,9,9,9,8,7,75,3,5,4,};
-        
         System.out.println(Arrays.toString(BubbleSort(testArr)));
     }
     
@@ -25,7 +24,7 @@ public class Driver{
      */
     public static int[] BubbleSort(int arr[]){
         int temp;
-        // for t
+ 
         for(int i = 0; i < arr.length;i++){
             for(int j = 0; j < arr.length-1;j++){
                 if(arr[j] > arr[j+1]){
